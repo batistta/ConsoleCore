@@ -6,8 +6,9 @@ namespace Teste
     {
         static void Main(string[] args)
         {
-            newclass newclass1 = new newclass();//fon
-            System.Console.WriteLine(newclass1.print());
+            newclass newclass1 = new newclass();
+            Console.WriteLine(newclass1.print());
+            Console.ReadKey();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Teste
             altura = 1.65;// dale doly
         }
         public string print () {
-            return "Nome: " + nome + "\nIdade: " + idade + "\nAltura: " + altura;
+            return $"Nome: " + nome + "\nIdade: " + idade + "\nAltura: " + altura;
         }
     }
 }
